@@ -1,0 +1,53 @@
+body {
+  background-color: maroon;
+  font-family: sans-serif;
+}
+
+.navbar li {
+  display: inline;
+  padding-left: 5%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  background-color: grey;
+}
+
+.main-content {
+  float: left;
+  max-width: 65%;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+div{
+  padding: 10px;
+  background-color: #fecb33;
+}
+
+h1 {
+  text-align: center;
+  font-size: 500%;
+}
+
+.face{
+  transform: rotate(-90deg);
+  padding-bottom: 20px;
+}
+
+.sidebar {
+  float: right;
+  max-width: 25%;
+}
+
+.list-image {
+  display: flex;
+  flex-direction: column;
+}
