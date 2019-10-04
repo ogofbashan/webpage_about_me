@@ -2,60 +2,77 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- attach Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/main.css">
     <title>About Joe OG</title>
   </head>
   <body>
     <head>
-      <h1>JOE OG</h1>
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <ul>
-            <li><a href=index.html>Home</a></li>
-            <li><a href=./html/contact.html>Contact Me</a></li>
-            <li><a href=https://www.youtube.com/watch?v=dQw4w9WgXcQ>Something Cool</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="./index.html">JOE OG</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Something Cool</a>
+                <a class="nav-item nav-link" href="./html/contact.html">Contact Me</a>
+              </div>
+            </div>
+          </nav>
+        </div> <!-- ends col 12 for nav -->
+      </div> <!-- ends row for nav -->
     </head>
     <main>
-      <div class=main-content>
-        <h2>Prologue</h2>
-        <h4>From 1990-Summer 2019</h4>
-        <img src="./images/IMG_MOBILE.jpg" alt="Mobile Cathedral">
-        <p>I come from a large Catholic family in Alabama. For as far back as I could remember, I had wanted to be a priest, and spent most of my adult life in that pursuit. It was a wonderful, but trying experience. So trying, that it led me to the difficult conclusion that I could not do it well for the rest of my life, and so it was not my true calling. I knew I needed to make a change.</p>
-        <h2>Act 2</h2>
-        <h4>Fall 2019</h4>
-        <img src="./images/IMG_MEANDBRO.jpg" alt="Me and my brother">
-        <p>After deciding to make a radical change in my life, I receive the hard sell from my brother to come move up to Boston and study coding. Now I currently live with him, his wife, his three kids (ages 7, 5, and a newborn), and their dog... It's pretty crowded</p>
-      </div>
-      <div class="sidebar">
-        <div id=three>
-          <h2>Basic Stats</h2>
-          <img src="./images/IMG_ME.jpg" alt="My Face" class=face>
-          <ul>
-            <li>Age: 29</li>
-            <li>Alma Mater: Rice University</li>
-            <li>Hometown: Mobile, AL</li>
-            <li>Hogwarts House: Hufflepuff</li>
-          </ul>
-        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="card">
+              <h2>Prologue</h2>
+              <h4>From 1990-Summer 2019</h4>
+              <img src="./images/IMG_MOBILE.jpg" alt="Mobile Cathedral">
+              <p>I come from a large Catholic family in Alabama. For as far back as I could remember, I had wanted to be a priest, and spent most of my adult life in that pursuit. It was a wonderful, but trying experience. So trying, that it led me to the difficult conclusion that I could not do it well for the rest of my life, and so it was not my true calling. I knew I needed to make a change.</p>
+            </div>
+            <div class="card">
+              <h2>Act 2</h2>
+              <h4>Fall 2019</h4>
+              <img src="./images/IMG_MEANDBRO.jpg" alt="Me and my brother">
+              <p>After deciding to make a radical change in my life, I receive the hard sell from my brother to come move up to Boston and study coding. Now I currently live with him, his wife, his three kids (ages 7, 5, and a newborn), and their dog... It's pretty crowded</p>
+            </div>
+          </div>   <!-- ends col-md-8 -->
+          <div class="col-md-4">
+              <div class="card">
+                <h2>Basic Stats</h2>
+                <img src="./images/IMG_ME.jpg" alt="My Face" class=face>
+                <ul>
+                  <li>Age: 29</li>
+                  <li>Alma Mater: Rice University</li>
+                  <li>Hometown: Mobile, AL</li>
+                  <li>Hogwarts House: Hufflepuff</li>
+                </ul>
+              </div>
 
-        <div id=five>
-          <h3>Why OG of Bashan?</h3>
-          <p class="quote">
-            Through the desert his people he led, <br> for his mercy endures forever.<br>       Nations in their greatness he struck,<br> for his mercy endures forever.<br> Kings in their splendor he slew,<br> for his mercy endures forever:<br> Sihon, king of the Amorites,<br> for his mercy endures forever;<br> and <strong>Og, the king of Bashan,</strong><br> for his mercy endures forever.<br> He gave their land as a heritage,<br> for his mercy endures forever;<br> a heritage for Israel, his servant,<br>  for his mercy endures forever.<br>  He remembered us in our distress,<br> for his mercy endures forever.</p>
-             <h6>Psalm 136:16-23</h6>
-        </div>
-        <div id=four>
-          <h3>Some Stuff I Like</h3>
-          <img src="./images/IMG_ROLLTIDE.svg" alt='University of Alabama Logo'>
-          <img src="./images/IMG_TARDIS.jpg" alt="TARDIS">
-          <img src="./images/IMG_CLEANBANDIT.jpg" alt="Clean Bandit">
-          <img src="./images/IMG_SPIDERMAN.jpeg" alt="Spider-Man">
-        </div>
-      </div>
-
+              <div class="card">
+                <h3>Why OG of Bashan?</h3>
+                <p class="quote">
+                  Through the desert his people he led, <br> for his mercy endures forever.<br>       Nations in their greatness he struck,<br> for his mercy endures forever.<br> Kings in their splendor he slew,<br> for his mercy endures forever:<br> Sihon, king of the Amorites,<br> for his mercy endures forever;<br> and <strong>Og, the king of Bashan,</strong><br> for his mercy endures forever.<br> He gave their land as a heritage,<br> for his mercy endures forever;<br> a heritage for Israel, his servant,<br>  for his mercy endures forever.<br>  He remembered us in our distress,<br> for his mercy endures forever.</p>
+                   <h6>Psalm 136:16-23</h6>
+              </div>
+              <div class="card">
+                <h3>Some Stuff I Like</h3>
+                <img src="./images/IMG_ROLLTIDE.svg" alt='University of Alabama Logo'>
+                <img src="./images/IMG_TARDIS.jpg" alt="TARDIS">
+                <img src="./images/IMG_CLEANBANDIT.jpg" alt="Clean Bandit">
+                <img src="./images/IMG_SPIDERMAN.jpeg" alt="Spider-Man">
+              </div>
+            </div>
+          </div>
+      </div> <!-- ends container -->
     </main>
   </body>
 </html>

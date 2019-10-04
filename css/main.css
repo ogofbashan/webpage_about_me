@@ -3,23 +3,18 @@ body {
   font-family: sans-serif;
 }
 
-.navbar li {
-  display: inline;
-  padding-left: 5%;
+.row {
+  background-color: maroon;
 }
 
 li {
   list-style-type: none;
 }
 
-.container {
-  background-color: grey;
-}
-
-.main-content {
+/* .main-content {
   float: left;
   max-width: 65%;
-}
+} */
 
 img {
   display: block;
@@ -27,27 +22,33 @@ img {
   width: 50%;
 }
 
-div{
+/* div{
   padding: 10px;
   background-color: #fecb33;
-}
+} */
 
 h1 {
   text-align: center;
   font-size: 500%;
 }
 
-.face{
+.face {
   transform: rotate(-90deg);
-  padding-bottom: 20px;
+  margin: 15%;
 }
 
-.sidebar {
+/* .sidebar {
   float: right;
   max-width: 25%;
-}
+} */
 
 .list-image {
   display: flex;
   flex-direction: column;
+}
+
+.card {
+  background-color: #fecb33;
+  padding: 5px;
+  margin: 5px;
 }
