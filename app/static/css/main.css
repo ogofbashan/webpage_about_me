@@ -1,0 +1,54 @@
+body {
+  background-color: maroon;
+  font-family: sans-serif;
+}
+
+.row {
+  background-color: maroon;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* .main-content {
+  float: left;
+  max-width: 65%;
+} */
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+/* div{
+  padding: 10px;
+  background-color: #fecb33;
+} */
+
+h1 {
+  text-align: center;
+  font-size: 500%;
+}
+
+.face {
+  transform: rotate(-90deg);
+  margin: 15%;
+}
+
+/* .sidebar {
+  float: right;
+  max-width: 25%;
+} */
+
+.list-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #fecb33;
+  padding: 5px;
+  margin: 5px;
+}
